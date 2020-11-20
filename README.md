@@ -35,3 +35,33 @@ Puis validez la création en cliquant sur le bouton "**Create**"
 
 ![sparkle](Pictures/005.png)
 
+## Creation du compte Azure Cosmos DB
+
+Depuis le portail [Azure](https://portal.azure.com), cliquez sur "**Create a resource**"
+
+![sparkle](Pictures/006.png)
+
+Recherchez le service Azure Cosmos DB
+
+![sparkle](Pictures/007.png)
+
+Puis cliquez sur le bouton "**Create**"
+
+![sparkle](Pictures/008.png)
+
+Sélectionnez le groupe de ressources créé précédement, définissez les options dont vous avez besoin puis cliquez sur le bouton "**Review + create**"
+
+![sparkle](Pictures/009.png)
+
+Cliquez sur le bouton "**Create**"
+
+![sparkle](Pictures/010.png)
+
+Une fois le compte Azure Cosmos DB créé, cliquez sur le bouton "**Go to resource**" afin de créer une base et un containeur.
+
+![sparkle](Pictures/011.png)
+
+Cliquez sur "**Overview**" puis sur "**Add Container**"
+
+![sparkle](Pictures/012.png)
+
