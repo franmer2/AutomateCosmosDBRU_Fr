@@ -65,3 +65,40 @@ Cliquez sur "**Overview**" puis sur "**Add Container**"
 
 ![sparkle](Pictures/012.png)
 
+Créez une nouvelle base de données ainsi qu'un nouveau containeur. Dans cet exemple nous allons décocher la case "**Provision database throughput**" (mais le script fonctionnera aussi avec cette case cochée).
+
+Cliquez sur le bouton "**Ok**"
+
+![sparkle](Pictures/013.png)
+
+Une fois la base et le containeur créés, ils devront être visibles depuis la vue d'ensemble de votre compte Azure Cosmos DB 
+
+![sparkle](Pictures/014.png)
+
+## Création du Service Azure Automation
+
+Depuis le portail [Azure](https://portal.azure.com), cliquez sur "**Create a resource**"
+
+![sparkle](Pictures/015.png)
+
+
+Puis recherchez "**Automation**"
+
+![sparkle](Pictures/016.png)
+
+Cliquez sur le bouton "**Create**
+
+![sparkle](Pictures/017.png)
+
+Donnez un nom à votre compte "*Automation*", choisissez le groupe de ressources créé précédement et sélectionnez "**Yes**" pour "**Create Azure Run As account**"
+
+Cliquez sur le bouton "**Create**"
+
+![sparkle](Pictures/018.png)
+
+Après la création du compte "*Azure Automation*", vous devriez donc avoir les ressources suivantes dans votre groupe de ressources
+
+![sparkle](Pictures/019.png)
+
+
+
