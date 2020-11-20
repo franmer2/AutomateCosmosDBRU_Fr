@@ -309,7 +309,7 @@ Vous avez donc une planification programmée.
 ![sparkle](Pictures/045.png)
 
 
-Il est pssible de créer plusieurs planification pour par exemple revoir les RU à la baisse si besoin et obtenir donc plusieurs planifications
+Il est possible de créer plusieurs autres planifications, pour par exemple revoir les RU à la baisse si besoin
 
 ![sparkle](Pictures/046.png)
 
