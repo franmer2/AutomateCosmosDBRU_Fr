@@ -204,7 +204,7 @@ Cliquez sur la croix en haut à droite pour fermer la fenêtre d'édition
 
 ![sparkle](Pictures/024.png)
 
-Puis faîte de même pour fermer le runbook
+Puis faîtes de même pour fermer le runbook
 
 ![sparkle](Pictures/025.png)
 
