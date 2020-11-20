@@ -100,5 +100,14 @@ Après la création du compte "*Azure Automation*", vous devriez donc avoir les 
 
 ![sparkle](Pictures/019.png)
 
+## Paramètrage du compte Azure Automation
+
+Cliquez sur votre compte **Azure Automation**
+
+![sparkle](Pictures/020.png)
+
+Cliquez sur "**Runbooks**" puis sur "**Create a runbook**"
+
+![sparkle](Pictures/021.png)
 
 
