@@ -27,3 +27,11 @@ Cliquez sur le bouton "**Create**"
 
 ![sparkle](Pictures/003.png)
 
+Donnez un nom au groupe de reessources puis cliquez sur le bouton "**Review + create**"
+
+![sparkle](Pictures/004.png)
+
+Puis validez la création en cliquant sur le bouton "**Create**"
+
+![sparkle](Pictures/005.png)
+
