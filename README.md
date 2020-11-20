@@ -194,3 +194,78 @@ catch {
  ```
 
 
+Puis cliquez sur le bouton "**Save**"
+
+![sparkle](Pictures/023.png)
+
+A ce stade-ci de l'article, le script ne fonctionnera pas encore. Il est nécessaire de rajouter deux modules pour le faire fonctionner.
+
+Cliquez sur la croix en haut à droite pour fermer la fenêtre d'édition
+
+![sparkle](Pictures/024.png)
+
+Puis faîte de même pour fermer le runbook
+
+![sparkle](Pictures/025.png)
+
+Sur la gauche, cliquez sur "**Module**", puis sur "**Browse gallery**"
+
+![sparkle](Pictures/026.png)
+
+Rajoutez les 2 modules suivants :
+
+- Az.Accounts
+- Az.CosmosDB
+
+Ci-dessous une illustration pour le module Az.Accounts
+
+Recherchez le module Az.Accounts
+
+![sparkle](Pictures/027.png)
+
+Puis cliquez sur "**Import**" puis dans la fenêtre suivante sur "**Ok**"
+
+![sparkle](Pictures/028.png)
+
+Recommencez l'opération pour le module Az.CosmosDB
+
+Vérifiez que les modules soient bien présents et que l'importation est bien terminée
+
+
+![sparkle](Pictures/029.png)
+
+Revenez dans votre runbook
+
+![sparkle](Pictures/030.png)
+
+Cliquez sur le bouton "**Edit**"
+
+![sparkle](Pictures/031.png)
+
+Cliquez sur "**Test pane**"
+
+![sparkle](Pictures/032.png)
+
+1. Remplissez les champs sur la gauche avec les informations demandées concernant Azure Cosmos DB (ici nous pilotons les RU au niveau du conteneur, donc j'ai laissé le champ *databasethroughput* vide). J'ai défini le nouveau niveau de RU à 500 (au lieu de 400).
+
+2. Cliquez sur "**Start**"
+
+![sparkle](Pictures/033.png)
+
+Si tout se passe correctement, vous devez obtenir le message suivant
+
+![sparkle](Pictures/034.png)
+
+Mais surtout, votre conteneur à maintenant 500 RU
+
+
+![sparkle](Pictures/035.png)
+
+## Programmer une exécution récurrente
+
+Maintenant que le plus dur est fait, il ne nous reste plus qu'à planifier l'exécution de notre script
+
+Depuis la fenêtre d'édition du runbook, cliqué sur "**Publish**"
+
+![sparkle](Pictures/036.png)
+
