@@ -246,7 +246,7 @@ Cliquez sur "**Test pane**"
 
 ![sparkle](Pictures/032.png)
 
-1. Remplissez les champs sur la gauche avec les informations demandées concernant Azure Cosmos DB (ici nous pilotons les RU au niveau du conteneur, donc j'ai laissé le champ *databasethroughput* vide). J'ai défini le nouveau niveau de RU à 500 (au lieu de 400).
+1. Remplissez les champs sur la gauche avec les informations demandées concernant Azure Cosmos DB (ici nous pilotons les RU au niveau du conteneur, donc j'ai laissé le champ *databasethroughput* vide, sinon, pour agir au niveau de la base de données, il suffit d'entrer la valeur : 1). J'ai défini le nouveau niveau de RU à 500 (au lieu de 400).
 
 2. Cliquez sur "**Start**"
 
@@ -312,3 +312,8 @@ Il est possible de créer plusieurs autres planifications, pour par exemple revo
 
 ![sparkle](Pictures/046.png)
 
+## Monitoring
+
+Cliquez sur "**Jobs**" si vous souhaitez avoir un statu de vos planifications
+
+![sparkle](Pictures/047.png)
