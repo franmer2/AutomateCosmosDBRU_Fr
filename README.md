@@ -265,7 +265,51 @@ Mais surtout, votre conteneur à maintenant 500 RU
 
 Maintenant que le plus dur est fait, il ne nous reste plus qu'à planifier l'exécution de notre script
 
-Depuis la fenêtre d'édition du runbook, cliqué sur "**Publish**"
+Depuis la fenêtre d'édition du runbook, cliquez sur "**Publish**" puis sur "**Yes**"
 
 ![sparkle](Pictures/036.png)
+
+Dans votre runbook, cliquez sur "**Schedules**"
+
+![sparkle](Pictures/037.png)
+
+Cliquez sur "**Add a schedule**"
+
+![sparkle](Pictures/038.png)
+
+Cliquez sur "**Schedule**" 
+
+![sparkle](Pictures/039.png)
+
+Puis "**Create a new schedule**"
+
+![sparkle](Pictures/040.png)
+
+Entrez les paramètres de votre planification puis cliquez sur "**Create**"
+
+![sparkle](Pictures/041.png)
+
+
+Ensuite cliquez sur "**Configure parameters and run sttings**"
+
+
+![sparkle](Pictures/042.png)
+
+
+Entrez les informations concernant votre conteneur Azure Cosmos DB puis cliquez sur "**Ok**
+
+![sparkle](Pictures/043.png)
+
+Validez la création de votre planification en cliquant sur "**Ok**"
+
+![sparkle](Pictures/044.png)
+
+Vous avez donc une planification programmée.
+
+![sparkle](Pictures/045.png)
+
+
+Il est pssible de créer plusieurs planification pour par exemple revoir les RU à la baisse si besoin et obtenir donc plusieurs planifications
+
+![sparkle](Pictures/046.png)
 
