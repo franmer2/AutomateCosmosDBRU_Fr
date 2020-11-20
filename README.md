@@ -27,7 +27,7 @@ Cliquez sur le bouton "**Create**"
 
 ![sparkle](Pictures/003.png)
 
-Donnez un nom au groupe de reessources puis cliquez sur le bouton "**Review + create**"
+Donnez un nom au groupe de ressources puis cliquez sur le bouton "**Review + create**"
 
 ![sparkle](Pictures/004.png)
 
@@ -49,7 +49,7 @@ Puis cliquez sur le bouton "**Create**"
 
 ![sparkle](Pictures/008.png)
 
-Sélectionnez le groupe de ressources créé précédement, définissez les options dont vous avez besoin puis cliquez sur le bouton "**Review + create**"
+Sélectionnez le groupe de ressources créé précédemment, définissez les options dont vous avez besoin puis cliquez sur le bouton "**Review + create**"
 
 ![sparkle](Pictures/009.png)
 
@@ -57,7 +57,7 @@ Cliquez sur le bouton "**Create**"
 
 ![sparkle](Pictures/010.png)
 
-Une fois le compte Azure Cosmos DB créé, cliquez sur le bouton "**Go to resource**" afin de créer une base et un containeur.
+Une fois le compte Azure Cosmos DB créé, cliquez sur le bouton "**Go to resource**" afin de créer une base et un conteneur.
 
 ![sparkle](Pictures/011.png)
 
@@ -65,13 +65,13 @@ Cliquez sur "**Overview**" puis sur "**Add Container**"
 
 ![sparkle](Pictures/012.png)
 
-Créez une nouvelle base de données ainsi qu'un nouveau containeur. Dans cet exemple nous allons décocher la case "**Provision database throughput**" (mais le script fonctionnera aussi avec cette case cochée).
+Créez une nouvelle base de données ainsi qu'un nouveau conteneur. Dans cet exemple nous allons décocher la case "**Provision database throughput**" (mais le script fonctionnera aussi avec cette case cochée).
 
 Cliquez sur le bouton "**Ok**"
 
 ![sparkle](Pictures/013.png)
 
-Une fois la base et le containeur créés, ils devront être visibles depuis la vue d'ensemble de votre compte Azure Cosmos DB 
+Une fois la base et le conteneur créés, ils devront être visibles depuis la vue d'ensemble de votre compte Azure Cosmos DB 
 
 ![sparkle](Pictures/014.png)
 
@@ -90,7 +90,7 @@ Cliquez sur le bouton "**Create**
 
 ![sparkle](Pictures/017.png)
 
-Donnez un nom à votre compte "*Automation*", choisissez le groupe de ressources créé précédement et sélectionnez "**Yes**" pour "**Create Azure Run As account**"
+Donnez un nom à votre compte "*Automation*", choisissez le groupe de ressources créé précédemment et sélectionnez "**Yes**" pour "**Create Azure Run As account**"
 
 Cliquez sur le bouton "**Create**"
 
@@ -100,7 +100,7 @@ Après la création du compte "*Azure Automation*", vous devriez donc avoir les 
 
 ![sparkle](Pictures/019.png)
 
-## Paramètrage du compte Azure Automation
+## Paramétrage du compte Azure Automation
 
 Cliquez sur votre compte **Azure Automation**
 
@@ -290,7 +290,7 @@ Entrez les paramètres de votre planification puis cliquez sur "**Create**"
 ![sparkle](Pictures/041.png)
 
 
-Ensuite cliquez sur "**Configure parameters and run sttings**"
+Ensuite cliquez sur "**Configure parameters and run settings**"
 
 
 ![sparkle](Pictures/042.png)
@@ -314,6 +314,6 @@ Il est possible de créer plusieurs autres planifications, pour par exemple revo
 
 ## Monitoring
 
-Cliquez sur "**Jobs**" si vous souhaitez avoir un statu de vos planifications
+Cliquez sur "**Jobs**" si vous souhaitez avoir un statut de vos planifications
 
 ![sparkle](Pictures/047.png)
